@@ -10,20 +10,19 @@
             background-color: #f4f4f4;
             color: #333;
             text-align: center;
+            padding: 20px;
         }
-        video {
+        iframe {
             width: 100%;
             max-width: 800px;
             height: auto;
+            border: none; /* Eliminar borde del iframe */
         }
     </style>
 </head>
 <body>
     <h1>Bienvenidos a Cahu</h1>
     <p>Mira nuestro video a continuación:</p>
-    <video controls>
-        <source src="https://drive.google.com/uc?id=1mrnDs_VazT6Tee1t6NdtD0h6lfgw_GM_" type="video/mp4">
-        Tu navegador no soporta la etiqueta de video.
-    </video>
+    <iframe src="https://drive.google.com/file/d/1mrnDs_VazT6Tee1t6NdtD0h6lfgw_GM_/preview" allowfullscreen></iframe>
 </body>
 </html>
